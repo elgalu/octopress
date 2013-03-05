@@ -4,7 +4,7 @@ title: "Tools for creating your first ruby gem"
 date: 2013-03-05 11:24
 comments: true
 categories: [ruby, gem_creation, rubygems, yard, rspec, twitter, twitter_anonymous_client, gem-newgem]
-published: false
+published: true
 ---
 This post is about tools you can use to turn your ruby idea into a ruby gem so you can share it with the ruby world.
 I will use a tiny gem of mine [twitter_anonymous_client][] as a practical example and also use some power tools like [yard][] that may be overkill for this tiny project but nice to know when working on bigger projects later on.
