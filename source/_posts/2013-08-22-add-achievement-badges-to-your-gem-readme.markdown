@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Add achievement badges to your gem README"
-date: 2013-02-27 15:53
+date: 2013-08-22 11:53
 comments: true
-categories: [ruby, gem, badges]
+categories: [ruby, gem, badges, analytics]
 published: true
 ---
 I really enjoy crashing into a gem with a markdown-ready README file that includes top badges telling me things like the current available gem version, the fact that is continuously being tested using travis or knowing the developer cares about the gem dependencies being up-to-date!
@@ -101,7 +101,31 @@ Replace strings __elgalu__ with your github user and __boolean_class__ with your
     [CC img]: https://codeclimate.com/github/elgalu/boolean_class.png
     [CS img]: https://coveralls.io/repos/elgalu/boolean_class/badge.png?branch=master
 
-And don't forget to let me know if i'm missing new cool badges out there!
+Don't forget to let me know if i'm missing new cool badges out there!
+
+## Google Analytics
+
+I've recently added [githalytics][] service in order to have [Google Analytics][] for each of my github repos.
+
+To do so:
+
+1. Go to [Google Analytics][] website and signup to get your Property ID, e.g.
+
+        Default URL protocol: https://
+        Default URL source..: github.com/elgalu/time_ago_in_words
+
+    You may also delete `github.com` from your GA **Referral Exclusion List**
+
+2. Go to [githalytics][] and sign up, e.g.
+
+        TrackingCode[url]:  https://github.com/elgalu/time_ago_in_words
+        TrackingCode[code]: UA-12345-12
+
+3. Add the fake image badge that will send data for analytics purposes, e.g.
+
+        [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/3fe2425a26ab0ca00b5bc6acf817af59 "githalytics.com")](http://githalytics.com/elgalu/time_ago_in_words)
+
+That should be it. Remember to check later on Google Analytics site for the collected data, works like a charm!
 
 
 [thor]: https://github.com/wycats/thor#thor
@@ -121,3 +145,6 @@ And don't forget to let me know if i'm missing new cool badges out there!
 [Dependency Status]: https://gemnasium.com/elgalu/boolean_class
 [Code Climate]: https://codeclimate.com/github/elgalu/boolean_class
 [Coverage Status]: https://coveralls.io/r/elgalu/boolean_class
+
+[Google Analytics]: http://www.google.com/analytics/
+[githalytics]: http://githalytics.com/
