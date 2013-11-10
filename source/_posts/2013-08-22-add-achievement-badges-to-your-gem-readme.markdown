@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Add achievement badges to your gem README"
-date: 2013-08-22 11:53
+date: 2013-11-08 09:53
 comments: true
 categories: [ruby, gem, badges, analytics]
 published: true
@@ -43,9 +43,9 @@ Add this `.travis.yml` file to your project root, change it depending on the rub
 ```ruby
 language: ruby
 rvm:
-  - 1.9.2
   - 1.9.3
   - 2.0.0
+  - jruby
 ```
 
 ### Coveralls with SimpleCov
@@ -55,8 +55,8 @@ I use [SimpleCov] for test coverage, coveralls gem take care of your badge,
 Add necessary dependencies to your gemspec:
 
 ```ruby
-s.add_development_dependency "simplecov", ">= 0.7"
-s.add_development_dependency 'coveralls', '>= 0.5.7'
+s.add_development_dependency "simplecov", ">= 0.7.1"
+s.add_development_dependency 'coveralls', '>= 0.7.0'
 ```
 
 If you use rspec, update your `spec_helper.rb` and add this lines to the very beginning:
@@ -105,7 +105,7 @@ Don't forget to let me know if i'm missing new cool badges out there!
 
 ## Google Analytics
 
-I've recently added [githalytics][] service in order to have [Google Analytics][] for each of my github repos.
+I've recently added [githalytics][] service in order to have [Google Analytics][] for each of my github repos. Note there is also [bitdeli][] service but haven't tested it yet, let me know if is better or more free.
 
 To do so:
 
@@ -148,3 +148,4 @@ That should be it. Remember to check later on Google Analytics site for the coll
 
 [Google Analytics]: http://www.google.com/analytics/
 [githalytics]: http://githalytics.com/
+[bitdeli]: https://bitdeli.com/
