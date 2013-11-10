@@ -2,16 +2,16 @@
 
 ## Branches info
 
-| Branch | Created by | Description |
-|:-------|:-----------|:----------- |
-| config | elgalu  | Blog configuration-related stuff, some code related stuff leaked here too.
-| justin-kelly-theme | elgalu | Theme related code. The theme i chose.
-| posts  | elgalu  | My Post. Where i actually write blog content.
-| 2.5    | imathis | Octopress core version my blog was based on but no longer works upgrading due to plugins deprecations.
+| Branch             | Created by | Description |
+|:-------------------|:-----------|:----------- |
+| config             | elgalu     | Blog configuration-related stuff, some code related stuff leaked here too.
+| justin-kelly-theme | elgalu     | Theme related code. The theme i chose.
+| posts              | elgalu     | My Post. Where i actually write blog content.
+| 2.5                | imathis    | Octopress core version my blog was based on but no longer works upgrading due to plugins deprecations.
 
 ## Regenerate & Deploy
 
-Regenerate & Deploy
+Regenerate
 
     bundle exec rake generate
 
