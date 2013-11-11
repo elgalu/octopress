@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "about"
+title: "About Leo Gallucci"
 date: 2013-11-10 18:32
 comments: true
 sharing: true
