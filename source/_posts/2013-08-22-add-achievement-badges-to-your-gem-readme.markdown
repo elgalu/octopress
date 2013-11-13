@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Add achievement badges to your gem README"
-date: 2013-11-08 09:53
+date: 2013-11-13 15:02
 comments: true
 categories: [ruby, gem, badges, analytics]
 published: true
@@ -31,6 +31,11 @@ Achieving all that will take some steps, here is how:
 + For code quality stats [Signup at Code Climate](https://codeclimate.com/github/signup)
 
 + For coverage percentage [Signup at Coveralls](https://coveralls.io/repos/new)
+
++ For analytics [Signup at Google Analytics](http://www.google.com/analytics) and [Signup at githalytics][githalytics]
+
++ For pretty documentation generator read [here](http://documentup.com)
+  or simply go to `documentup.com/your_github_user/your_repo_name`
 
 ## Getting your code ready to use them
 
@@ -128,7 +133,7 @@ To do so:
 That should be it. Remember to check later on Google Analytics site for the collected data, works like a charm!
 
 
-[thor]: https://github.com/wycats/thor#thor
+[thor]: https://github.com/wycats/thor#readme
 [boolean_class]: https://github.com/elgalu/boolean_class#booleanclass
 [push to rubygems]: http://guides.rubygems.org/command-reference/#gem_push
 [SimpleCov]: https://github.com/colszowka/simplecov
