@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Add achievement badges to your gem README"
-date: 2013-11-13 15:02
+date: 2013-12-14 19:02
 comments: true
 categories: [ruby, gem, badges, analytics]
 published: true
@@ -22,15 +22,15 @@ Achieving all that will take some steps, here is how:
 
 ## Where to sign-up
 
-+ For the gem version badge just [push to rubygems] at least 1 time and the badge will be there for you
++ For the gem version badge just [push to rubygems] at least 1 time and the badge will be there for you. Also, the "Version Badge" page offers an easy copy and paste builder of the URL that you can use [here][Version Badge]
 
-+ For your build status [Signup at Travis-CI](https://travis-ci.org/profile)
++ For your build status go to [Travis-CI.org](https://travis-ci.org) and follow the link "Sign in with GitHub"
 
 + For gem dependencies status [Signup at Gemnasium](https://gemnasium.com/users/auth/github)
 
 + For code quality stats [Signup at Code Climate](https://codeclimate.com/github/signup)
 
-+ For coverage percentage [Signup at Coveralls](https://coveralls.io/repos/new)
++ For coverage percentage first [Signup once at Coveralls](https://coveralls.io/authorize/github) then for each of you projects go to the [Add Repo page](https://coveralls.io/repos/new)
 
 + For analytics [Signup at Google Analytics](http://www.google.com/analytics) and [Signup at githalytics][githalytics]
 
@@ -50,7 +50,7 @@ language: ruby
 rvm:
   - 1.9.3
   - 2.0.0
-  - jruby
+  - jruby-1.7.9
 ```
 
 ### Coveralls with SimpleCov
@@ -60,7 +60,7 @@ I use [SimpleCov] for test coverage, coveralls gem take care of your badge,
 Add necessary dependencies to your gemspec:
 
 ```ruby
-s.add_development_dependency "simplecov", ">= 0.7.1"
+s.add_development_dependency "simplecov", ">= 0.8.2"
 s.add_development_dependency 'coveralls', '>= 0.7.0'
 ```
 
@@ -79,7 +79,8 @@ SimpleCov.start
 
 ## Update your README file
 
-Replace strings __elgalu__ with your github user and __boolean_class__ with your github repo name:
+Replace strings __elgalu__ with your github user and __boolean_class__ with your github repo name.
+It's probably a better idea that you use a templating tool for this like [the one I built and use](https://github.com/elgalu/gem-newgem)
 
     # TODO: Your gem name
 
@@ -154,3 +155,4 @@ That should be it. Remember to check later on Google Analytics site for the coll
 [Google Analytics]: http://www.google.com/analytics/
 [githalytics]: http://githalytics.com/
 [bitdeli]: https://bitdeli.com/
+[Version Badge]: http://badge.fury.io/for/rb/
