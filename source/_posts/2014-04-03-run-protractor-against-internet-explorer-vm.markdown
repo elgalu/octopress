@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Run protractor against Internet Explorer VM"
-date: 2014-04-04 13:05
+date: 2014-04-04 19:25
 comments: true
 categories: [protractor, webdriver, selenium, IE, grid2, virtualbox]
 published: true
@@ -10,14 +10,14 @@ published: true
 
 Is free and available on many platforms
 
-[https://www.virtualbox.org/wiki/Downloads]()
+[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
 
 <h2 id="step2">Step 2 - Get a free Windows Virtual Machine</h2>
 
 If you don't have already a running Windows with IE you can quickly and legally go with this:
 
-[http://modern.ie/en-us/virtualization-tools#downloads]()
+[http://modern.ie/en-us/virtualization-tools#downloads](http://modern.ie/en-us/virtualization-tools#downloads)
 
 ![VirtualBox IE images](/images/virtualbox_for_linux_modernIE.png "VirtualBox images for Linux")
 
@@ -32,7 +32,7 @@ If, like me, you need to test against IE9, IE10, IE11 then you'll need to downlo
 Once you have your Windows VM up and running, you should ensure java is installed.
 Install link here:
 
-[http://www.java.com/en/download/index.jsp]()
+[http://www.java.com/en/download/index.jsp](http://www.java.com/en/download/index.jsp)
 
 You may need to retry this download a few times since Windows security scan gives troubles sometimes.
 
@@ -58,13 +58,13 @@ Go to Internet explorer options, follow these screen shots to get all setup:
 
 As of this writing, latest selenium is 2.41.0, search latest at:
 
-[http://selenium-release.storage.googleapis.com/index.html]()
+[http://selenium-release.storage.googleapis.com/index.html](http://selenium-release.storage.googleapis.com/index.html)
 
 Download these files in you windows VM:
 
-[http://selenium-release.storage.googleapis.com/2.41/selenium-server-standalone-2.41.0.jar]()
+[http://selenium-release.storage.googleapis.com/2.41/selenium-server-standalone-2.41.0.jar](http://selenium-release.storage.googleapis.com/2.41/selenium-server-standalone-2.41.0.jar)
 
-[http://selenium-release.storage.googleapis.com/2.41/IEDriverServer_Win32_2.41.0.zip]()
+[http://selenium-release.storage.googleapis.com/2.41/IEDriverServer_Win32_2.41.0.zip](http://selenium-release.storage.googleapis.com/2.41/IEDriverServer_Win32_2.41.0.zip)
 
 We also need the IE driver, so by using 32 bits version and placing the extracted file into your windows path should get that ready. FYI people had [issues with 64 bits versions of the driver](http://stackoverflow.com/questions/21612643/protractor-internet-explorer-slowness) so on x64 Windows machine I suggest you avoid using x64 driver even on a 64 bits machine.
 
@@ -154,7 +154,7 @@ Steps to do that below.
 
 Setting up protractor on Windows is quite doable, download first:
 
-[http://nodejs.org/download/]()
+[http://nodejs.org/download/](http://nodejs.org/download/)
 
 And select Windows Installer of course. I recommend you choose 32 bits installers.
 Follow setup wizard.
