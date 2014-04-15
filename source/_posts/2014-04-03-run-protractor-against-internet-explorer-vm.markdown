@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Run protractor against Internet Explorer VM"
-date: 2014-04-04 19:25
+date: 2014-04-15 17:25
 comments: true
 categories: [protractor, webdriver, selenium, IE, grid2, virtualbox]
 published: true
@@ -52,6 +52,10 @@ Go to Internet explorer options, follow these screen shots to get all setup:
 ![IE11_options5_dont_check_certificates_and_erase_temporary_files](/images/IE11_options5_dont_check_certificates_and_erase_temporary_files.png "IE11_options5_dont_check_certificates_and_erase_temporary_files")
 
 ![IE11_options6_leave_warnings_unchecked](/images/IE11_options6_leave_warnings_unchecked.png "IE11_options6_leave_warnings_unchecked")
+
+<h6 id="step4-ie10-or-less-only">Following an IE10 / IE9 / IE8 necessary option:</h6>
+
+![IE10_disable_accelerator_button_on_selection](/images/IE10_disable_accelerator_button_on_selection.png "IE10_disable_accelerator_button_on_selection")
 
 
 <h2 id="step5">Step 5 - Download selenium standalone, latest</h2>
