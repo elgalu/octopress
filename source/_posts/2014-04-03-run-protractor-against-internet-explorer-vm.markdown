@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Run protractor against Internet Explorer VM"
-date: 2014-04-15 17:25
+date: 2014-04-28 17:25
 comments: true
 categories: [protractor, webdriver, selenium, IE, grid2, virtualbox]
 published: true
@@ -24,8 +24,8 @@ If you don't have already a running Windows with IE you can quickly and legally 
 If, like me, you need to test against IE9, IE10, IE11 then you'll need to download 3 VMs, one for each IE version, e.g.:
 
 *   IE9 - Win7
-*   IE10 - Win7 or Win8
-*   IE11 - Win7 or Win8.1
+*   IE10 - Win8 (preferred over Win7)
+*   IE11 - Win8.1 (preferred over Win7)
 
 <h2 id="step3">Step 3 - Install Java on the windows VM</h2>
 
@@ -56,6 +56,10 @@ Go to Internet explorer options, follow these screen shots to get all setup:
 <h6 id="step4-ie10-or-less-only">Following an IE10 / IE9 / IE8 necessary option:</h6>
 
 ![IE10_disable_accelerator_button_on_selection](/images/IE10_disable_accelerator_button_on_selection.png "IE10_disable_accelerator_button_on_selection")
+
+<h6 id="step4-ie11-auto-updates">Check "Install new versions automatically"</h6>
+
+![IE11_check_Install_new_versions_automatically](/images/IE11_check_Install_new_versions_automatically.png "IE11_check_Install_new_versions_automatically")
 
 
 <h2 id="step5">Step 5 - Download selenium standalone, latest</h2>
