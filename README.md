@@ -11,6 +11,12 @@
 
 ## Regenerate & Deploy
 
+First time, after git clone:
+
+    bundle exec rake setup_github_pages
+    # enter:
+    # git@github.com:elgalu/elgalu.github.io.git
+
 Regenerate
 
     bundle exec rake generate
@@ -22,9 +28,5 @@ Preview in browser
 Deploy to github
 
     bundle exec rake deploy
-
-Note every time you clone the repo you will need to again do:
-
-    bundle exec rake setup_github_pages
 
 Note after that commit you may need to merge gh-pages into master on your {username}.github.io repository
