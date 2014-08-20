@@ -15,7 +15,7 @@ First time, after git clone:
 
     bundle exec rake setup_github_pages
     # enter:
-    # git@github.com:elgalu/elgalu.github.io.git
+    # git@github.com:elgalu/elgalu.github.io
 
 Regenerate
 
