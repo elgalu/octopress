@@ -30,3 +30,8 @@ Deploy to github
     bundle exec rake deploy
 
 Note after that commit you may need to merge gh-pages into master on your {username}.github.io repository
+
+## Create new post
+
+    rake new_post["Run protractor against Internet Explorer VM"]
+    #=> Creating new post: source/_posts/2015-02-10-run-protractor-against-internet-explorer-vm.markdown
